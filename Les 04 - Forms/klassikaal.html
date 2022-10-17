@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulier</title>
+</head>
+<body>
+    <h1>Stel uw vraag hier: </h1>
+    <form action="http://tm-statweb.be/sendmail.php" method="post">
+        
+        <div>
+            <label for="Naam">Naam: <input type="text" name="Naam" id="Naam" required></label> 
+        </div>
+        <div>
+            <label for="email">Email: <input type="email" name="email" id="email" required></label> 
+        </div>
+        <div>
+            <label for="url">Website: <input type="url" name="Website" id="Website" required></label> 
+        </div>
+        <div>
+            <label for="Reactie">Reactie: <textarea name="Reactie" id="Reactie" cols="30"></textarea> </label>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Geslacht</legend>
+            <label for="Man">Man: <input type="radio" name="gender" id="Man"></label>
+            <label for="Vrouw">Vrouw: <input type="radio" name="gender" id="Vrouw"></label>
+            <label for="Ander">Ander: <input type="radio" name="gender" id="Ander"></label>
+        </fieldset>
+        </div>
+        <div>
+            <label for="check">Hou me op de hoogte!</label><input type="checkbox" id="" name="" value="">
+        </div>
+        <input type="hidden" name="studentmail" value="">
+        <div>
+            <input value="Submit" type="submit" name="submit" id="submit">
+        </div>
+        
+    </form>
+</body>
+</html>
