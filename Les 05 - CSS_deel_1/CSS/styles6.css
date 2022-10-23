@@ -1,0 +1,32 @@
+ul {
+    background-color: rgb(58, 57, 57);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0px;
+    
+  
+}
+li {
+    
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+li a.active {
+    padding: 26px 20px 26px 20px;
+    background-color: green;
+}
