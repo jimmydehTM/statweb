@@ -1,4 +1,29 @@
-ol {
+ol:nth-child(2) {
+    border: solid rgb(238, 73, 95) 15px;
+    padding: 3px;
+    background-color: rgb(255, 144, 144);
+    padding-right: 20px;
     
-    padding: solid black 20px;
+}
+
+ol:nth-child(1) {
+    border: solid rgb(238, 73, 95) 15px;
+    margin-bottom: 10px;
+    
+}
+
+ul {
+    padding: 0;
+    border: solid rgb(73, 103, 238) 20px;
+       
+    
+}
+
+ul li {
+    border: solid 1px rgb(73, 103, 238);
+    background-color: aqua;
+}
+
+ol {
+    padding: 3px;
 }
