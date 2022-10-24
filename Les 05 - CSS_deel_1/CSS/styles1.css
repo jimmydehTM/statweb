@@ -15,5 +15,6 @@ h1 {
 h2 {
     background-color: aqua;
     border-left: 6px solid blue;
+    padding-left: 10px;
         
 }
