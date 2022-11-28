@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    background-image: url(/kompas.jpg);
+    background-size: cover;
+}
+
+
+
+.label  {
+      
+    color: white;
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+      
+}
+
+.noord {
+    
+    left: 50%;
+    top: 10px;   
+}
+
+.oost {
+      
+    top: 50%;  
+    left: 10px;
+}
+
+
+.zuid {
+    
+   left: 50%;
+   bottom: 10px;
+   transform: translate(-50%, 0)
+    
+}
+
+.west {
+
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%)
+}

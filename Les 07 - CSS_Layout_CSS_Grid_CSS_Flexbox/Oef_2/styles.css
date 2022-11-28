@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+            "head head"
+            "aside main"
+            "footer footer";
+            grid-template-rows: 100px 300px 30px;
+            grid-template-columns: 200px auto;
+            gap: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container > header {
+    grid-area: head;
+    background-color: blue;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    
+  }
+
+
+  .container > nav {
+    grid-area: aside;
+    background-color: green;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+  }
+
+
+  .container > main {
+    grid-area: main;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+  }
+
+  .container > footer {
+    grid-area: footer;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+  }
+
